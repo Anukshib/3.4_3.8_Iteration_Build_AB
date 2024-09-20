@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> SL TRAVEL</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="Anukshi Balasuriya" content="Sri Lankan travel Website">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--import the webpage's stylesheet -->
+		<link rel="stylesheet" href="css/stylev3.css">
+
+
+    </head>
+
+
+    <body>
+
+        <header>
+
+
+ 			<div class="nav" style = "display:flex;">
+
+		
+				<div class = "navb">
+					<ul>
+						<li><a href="index_v3.html">Home</a></li>
+						<li><a href="#">Places to go </a>
+							<ul>
+								<li><a href="page2.html">Ella</a></li>
+								<li><a href="page3.html">Sigiriya</a></li>
+								<li><a href="galle.html">Galle</a></li>
+								<li><a href="kandy.html">Kandy</a></li>
+
+							</ul>
+						</li>
+
+						<li><a href>Things to do </a>
+							<ul>
+								<li><a href="kitesurfing.html">Kite Surfing</a></li>
+								<li><a href="nationalparks.html">National Parks</a></li>
+								<li><a href="ancientruins.html">Ancient Ruins</a></li>
+								<li><a href="snorkeling.html">Snorkeling</a></li>
+							</ul>
+						</li>
+						<li><a href="form.php">Contact us</a></li>
+
+					</ul>
+
+				</div>
+				<div id="Menu" class="overlay" style = "z-index:1; margin-top:20px;">
+
+					<!-- Button to close the overlay navigation -->
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+					<!-- Overlay content -->
+					<div class="overlay-content">
+						
+						<a href="index_v3.html">Home</a>
+						<a href="page2.html">Places to go</a>
+						<a href="kitesurfing.html"> Things to do</a>
+						<a href="form.php">Contact Us</a>
+						
+
+					</div>
+
+				</div>
+				<!-- Use any element to open/show the overlay navigation menu -->
+				<span style="cursor:pointer, right:0;" onclick="openNav()">
+					<div class="container" stle = "margin-top:30px;">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</span>	
+
+
+			</div>
+
+        </header>
+
+
+
+
+        <div class="column18" style="background-image: url('images/kandy1.jpg'); background-size:cover;" >
+
+            <div class="maintext">
+                <h1> KANDY </h1>
+            </div>
+
+        </div>
+
+        <div class="column19">
+			
+			
+            <div class="m1right"style="background-image: url('images/kandy2.jpg'); background-size:cover;">
+
+            </div>
+			
+			<div class="m1left">
+				<h5> WHY KANDY? </h5>
+				
+				 <h4>Visiting Kandy, Sri Lanka, is a journey into the heart of the island's cultural and spiritual heritage. Kandy is often referred to as the cultural capital of Sri Lanka, and for good reason. </h4>				
+				
+			</div>
+        </div>
+		
+
+        <div class="column20">
+            
+			<div class="m2right">
+				<h5> HOT SPOTS </h5>
+							<h4>The town is home to the Temple of the Sacred Tooth Relic, one of the most revered Buddhist sites in the world. This sacred temple, believed to house a tooth of the Buddha, draws pilgrims and visitors from around the globe, especially during the annual Esala Perahera festival, where a grand procession of elephants, dancers, and drummers takes to the streets in a vibrant celebration of faith and tradition.
+							</h4>
+
+			</div>
+			
+
+			<div class="m2left"style="background-image: url('images/kandy3.jpg'); background-size:cover;">
+
+
+			</div>
+
+        </div>
+		
+		
+		
+
+        <div class="column21">
+			
+			<div class="m3right" style="background-image: url('images/kandy4.jpg'); background-size:cover;">
+			
+			
+			
+			</div>
+
+						
+
+			<div class="m3left">
+				
+								<h5> HOTELS IN THE AREA</h5>
+								
+									<h4> 1. Mahaweli Reach Hotel</h4>
+									<h4>2. The Grand Kandyan Hotel</h4>
+									<h4>3. Fox Kandy</h4>
+									<h4>4. Thilanka Hotel</h4>
+									<h4>5. The Summit </h4>
+
+			</div>
+
+        </div>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#f6d87e">
+				<path d="m296-345-56-56 240-240 240 240-56 56-184-183-184 183Z"/>
+			</svg>		
+		 </button>
+
+        <div class="footer"><p>Anukshi Balasuriya © copyright, all rights reserved, 2024</p></div>
+
+		<script src="myBtn.js"></script>
+				<script>
+
+
+			function openNav() {
+				document.getElementById("Menu").style.width = "100%";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("Menu").style.width = "0%";
+				document.getElementById("main").style.marginLeft= "0";
+			}
+		</script>	
+
+    </body>
+
+</html>
