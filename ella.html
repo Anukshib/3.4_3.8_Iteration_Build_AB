@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> SL TRAVEL</title>
+        <!--import the webpage's stylesheet -->
+        <link rel="stylesheet" href="css/stylev3.css">
+
+    </head>
+
+
+    <body>
+
+        <header>
+
+			<div class="nav" style = "display:flex;">
+
+		
+				<div class = "navb">
+					<ul>
+						<li><a href="index_v3.html">Home</a></li>
+						<li><a href="#">Places to go </a>
+							<ul>
+								<li><a href="page2.html">Ella</a></li>
+								<li><a href="page3.html">Sigiriya</a></li>
+								<li><a href="galle.html">Galle</a></li>
+								<li><a href="kandy.html">Kandy</a></li>
+
+							</ul>
+						</li>
+
+						<li><a href>Things to do </a>
+							<ul>
+								<li><a href="kitesurfing.html">Kite Surfing</a></li>
+								<li><a href="nationalparks.html">National Parks</a></li>
+								<li><a href="ancientruins.html">Ancient Ruins</a></li>
+								<li><a href="snorkeling.html">Snorkeling</a></li>
+							</ul>
+						</li>
+						<li><a href="form.php">Contact us</a></li>
+
+					</ul>
+
+					
+				</div>
+				<div id="Menu" class="overlay" style = "z-index:1; margin-top:20px;">
+
+					<!-- Button to close the overlay navigation -->
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+					<!-- Overlay content -->
+					<div class="overlay-content">
+						
+						<a href="index_v3.html">Home</a>
+						<a href="page2.html">Places to go</a>
+						<a href="kitesurfing.html"> Things to do</a>
+						<a href="form.php">Contact Us</a>
+
+						
+
+					</div>
+
+				</div>
+				<!-- Use any element to open/show the overlay navigation menu -->
+				<span style="cursor:pointer, right:0;" onclick="openNav()">
+					<div class="container" stle = "margin-top:30px;">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</span>	
+
+
+			</div>
+
+        </header>
+
+
+
+
+        <div class="column5" style="background-image: url('images/ella1.jpg'); background-size:cover;" >
+
+            <div class="maintext">
+                <h1> ELLA </h1>
+
+            </div>
+
+        </div>
+
+        <div class="column6">
+
+            <div class="m1right" style="background-image: url('images/ella3.jpg'); background-size:cover;">
+
+             
+
+            </div>
+			
+			<div class="m1left">
+				<h5> WHY ELLA? </h5>
+				
+				 <h4>Ella, Sri Lanka, is a must-visit destination for anyone seeking natural beauty, adventure, and a glimpse into the island's rich culture. Nestled in the heart of Sri Lanka's hill country, Ella is known for its breathtaking landscapes, with lush green tea plantations, misty mountains, and cascading waterfalls. Visitors can trek to iconic viewpoints like Ella Rock and Little Adam's Peak, where panoramic views of the surrounding countryside await.</h4>
+				
+				
+				
+			</div>
+        </div>
+
+        <div class="column7">
+            
+			<div class="m2right">
+
+				<h5> HOT SPOTS</h5>
+							<h4>One of the stand-out experiences in Ella is the scenic train ride to or from Kandy, often celebrated as one of the most beautiful train journeys in the world. As the train meanders through lush tea plantations, mist-covered forests, and rolling hills, passengers are treated to breathtaking views that seem to unfold with each bend in the track. The leisurely pace of the train allows ample time to soak in the stunning landscape, from cascading waterfalls to terraced fields and charming villages. </h4>
+
+						</div>
+
+						<div class="m2left" style="background-image: url('images/ella2.jpg'); background-size:cover;">
+
+
+						</div>
+
+        </div>
+		
+		
+		
+
+        <div class="column8">
+			
+							<div class="m1right"  style="background-image: url('images/ella4.jpg'); background-size:cover;">
+							</div>
+
+						
+
+							<div class="m1left">
+								<h5>HOTELS IN THE AREA</h5>
+								
+					<h4> 1. EKHO Ella </h4>
+					<h4>2. 98 Acres Resort  Spa</h4>
+					<h4>3. Morning Dew Boutique Hotel</h4>
+					<h4>4. Ella Flower Garden Resort</h4>
+					<h4>5. HIDE-ELLA Hotel and Resort </h4>
+	
+
+
+							</div>
+
+        </div>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#f6d87e">
+				<path d="m296-345-56-56 240-240 240 240-56 56-184-183-184 183Z"/>
+			</svg>		
+		 </button>
+
+        <div class="footer"><p>Anukshi Balasuriya © copyright, all rights reserved, 2024</p></div>
+		<script src="myBtn.js"></script>
+				<script>
+
+
+			function openNav() {
+				document.getElementById("Menu").style.width = "100%";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("Menu").style.width = "0%";
+				document.getElementById("main").style.marginLeft= "0";
+			}
+		</script>	
+
+
+    </body>
+
+</html>
