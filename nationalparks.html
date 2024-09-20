@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> SL TRAVEL</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="Anukshi Balasuriya" content="Sri Lankan travel Website">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--import the webpage's stylesheet -->
+		<link rel="stylesheet" href="css/stylev3.css">
+
+    </head>
+
+
+    <body>
+
+        <header>
+
+
+ 			<div class="nav" style = "display:flex;">
+
+		
+				<div class = "navb">
+					<ul>
+						<li><a href="index_v3.html">Home</a></li>
+						<li><a href="#">Places to go </a>
+							<ul>
+								<li><a href="page2.html">Ella</a></li>
+								<li><a href="page3.html">Sigiriya</a></li>
+								<li><a href="galle.html">Galle</a></li>
+								<li><a href="kandy.html">Kandy</a></li>
+
+							</ul>
+						</li>
+
+						<li><a href>Things to do </a>
+							<ul>
+								<li><a href="kitesurfing.html">Kite Surfing</a></li>
+								<li><a href="nationalparks.html">National Parks</a></li>
+								<li><a href="ancientruins.html">Ancient Ruins</a></li>
+								<li><a href="snorkeling.html">Snorkeling</a></li>
+							</ul>
+						</li>
+						<li><a href="form.php">Contact us</a></li>
+
+					</ul>
+
+				</div>
+				<div id="Menu" class="overlay" style = "z-index:1; margin-top:20px;">
+
+					<!-- Button to close the overlay navigation -->
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+					<!-- Overlay content -->
+					<div class="overlay-content">
+						
+						<a href="index_v3.html">Home</a>
+						<a href="page2.html">Places to go</a>
+						<a href="kitesurfing.html"> Things to do</a>
+						<a href="form.php">Contact Us</a>
+
+						
+
+					</div>
+
+				</div>
+				<!-- Use any element to open/show the overlay navigation menu -->
+				<span style="cursor:pointer, right:0;" onclick="openNav()">
+					<div class="container" stle = "margin-top:30px;">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</span>	
+
+
+			</div>
+        </header>
+
+
+
+        <div class="column26" style="background-image: url('images/nparks1.jpg'); background-size:cover;">
+
+            <div class="maintext">
+                <h1> NATIONAL PARKS </h1>
+            </div>
+
+        </div>
+
+        <div class="column27">
+			
+			
+            <div class="m1right"  style="background-image: url('images/nparks2.webp'); background-size:cover;">
+
+             
+
+            </div>
+			
+			<div class="m1left">
+				
+				<h5> DESTINATION 1 </h5>
+
+				 <h4>Yala National Park: Located in the southeastern part of the island, Yala is one of the most famous parks in Sri Lanka. Its known for its leopard population, as well as elephants, sloth bears, and a variety of bird species. The park features a mix of dry forests, grasslands, and lagoons.</h4>				
+				
+			</div>
+        </div>
+		
+
+        <div class="column28">
+            
+			<div class="m2right">
+
+								<h5> DESTINATION 2 </h5>
+
+							<h4>Udawalawe National Park: Situated in the southeast, Udawalawe is renowned for its large population of elephants. Its a great place for wildlife enthusiasts to see elephants in their natural habitat, along with water buffaloes, deer, and various bird species.
+							</h4>
+
+			</div>
+			
+
+			<div class="m2left"  style="background-image: url('images/nparks3.jpg'); background-size:cover;">
+
+
+			</div>
+
+        </div>
+		
+		
+		
+
+        <div class="column29">
+			
+			<div class="m3right"  style="background-image: url('images/nparks4.webp'); background-size:cover;">
+			
+			
+			
+			</div>
+
+						
+
+			<div class="m3left">
+				
+								<h5> DESTINATION 3 </h5>
+
+								 <h4> Located in the northwest, Wilpattu is known for its natural lakes or "villus," which attract a wide range of wildlife. Its one of Sri Lankas oldest and largest national parks and is famous for its leopard sightings, as well as its diverse flora and fauna.
+								</h4>
+
+			</div>
+
+        </div>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#f6d87e">
+				<path d="m296-345-56-56 240-240 240 240-56 56-184-183-184 183Z"/>
+			</svg>		
+		 </button>
+
+        <div class="footer"><p>Anukshi Balasuriya © copyright, all rights reserved, 2024</p></div>
+
+		<script src="myBtn.js"></script>
+		
+				<script>
+
+
+			function openNav() {
+				document.getElementById("Menu").style.width = "100%";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("Menu").style.width = "0%";
+				document.getElementById("main").style.marginLeft= "0";
+			}
+		</script>	
+
+    </body>
+
+</html>
