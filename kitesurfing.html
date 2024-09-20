@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> SL TRAVEL</title>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="Anukshi Balasuriya" content="Sri Lankan travel Website">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!--import the webpage's stylesheet -->
+		<link rel="stylesheet" href="css/stylev3.css">
+
+    </head>
+
+
+    <body>
+
+        <header>
+
+
+			<div class="nav" style = "display:flex;">
+
+		
+				<div class = "navb">
+					<ul>
+						<li><a href="index_v3.html">Home</a></li>
+						<li><a href="#">Places to go </a>
+							<ul>
+								<li><a href="page2.html">Ella</a></li>
+								<li><a href="page3.html">Sigiriya</a></li>
+								<li><a href="galle.html">Galle</a></li>
+								<li><a href="kandy.html">Kandy</a></li>
+
+							</ul>
+						</li>
+
+						<li><a href>Things to do </a>
+							<ul>
+								<li><a href="kitesurfing.html">Kite Surfing</a></li>
+								<li><a href="nationalparks.html">National Parks</a></li>
+								<li><a href="ancientruins.html">Ancient Ruins</a></li>
+								<li><a href="snorkeling.html">Snorkeling</a></li>
+							</ul>
+						</li>
+						<li><a href="form.php">Contact us</a></li>
+
+
+					</ul>
+
+				</div>
+				<div id="Menu" class="overlay" style = "z-index:1; margin-top:20px;">
+
+					<!-- Button to close the overlay navigation -->
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+					<!-- Overlay content -->
+					<div class="overlay-content">
+						
+						<a href="index_v3.html">Home</a>
+						<a href="page2.html">Places to go</a>
+						<a href="kitesurfing.html"> Things to do</a>
+						<a href="form.php">Contact Us</a>
+						<a href="form.php">Contact Us</a>
+
+						
+
+					</div>
+
+				</div>
+				<!-- Use any element to open/show the overlay navigation menu -->
+				<span style="cursor:pointer, right:0;" onclick="openNav()">
+					<div class="container" stle = "margin-top:30px;">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+				</span>	
+
+
+			</div>  
+
+        </header>
+
+
+
+
+        <div class="column22" style="background-image: url('images/kites3.jpg'); background-size:cover;">
+
+            <div class="maintext">
+                <h1>KITE SURFING </h1>
+            </div>
+
+        </div>
+
+        <div class="column23">
+			
+			
+            <div class="m1right" style="background-image: url('images/kites2.webp'); background-size:cover;">
+
+             
+
+            </div>
+			
+			<div class="m1left">
+				
+				<h5> DESTINATION 1 </h5>
+
+				
+				<h4> Kalpitiya, located on the northwest coast, is the most popular kite surfing destination in Sri Lanka. Known for its strong, consistent winds from May to October and December to March, Kalpitiya offers perfect conditions for kite surfers of all levels. The Kalpitiya Lagoon is ideal for beginners, with flat, shallow water providing a safe learning environment. For more advanced kite surfers, the nearby Vella Island and Donkey Point offer exciting wave-riding opportunities.  </h4>				
+				
+			</div>
+        </div>
+		
+
+        <div class="column24">
+            
+			<div class="m2right">
+
+								<h5> DESTINATION 2 </h5>
+
+							<h4>Mannar, located further north of Kalpitiya, is a lesser-known but equally impressive kite surfing spot. With strong winds and vast, uncrowded beaches, Mannar is perfect for those looking for a more remote and tranquil kite surfing experience. The wide-open spaces and flat water conditions make it an excellent location for freestyle kite surfing. The winds here are strong, especially from May to October, and the scenery is stunning, with a mix of lagoons, sand dunes, and historic sites nearby.
+							</h4>
+
+			</div>
+			
+
+			<div class="m2left" style="background-image: url('images/kites1.webp'); background-size:cover;">
+
+
+			</div>
+
+        </div>
+		
+		
+		
+
+        <div class="column25">
+			
+			<div class="m3right" style="background-image: url('images/kites4.jpg'); background-size:cover;">
+			
+			
+			
+			</div>
+
+						
+
+			<div class="m3left">
+				
+								<h5> DESTINATION  </h5>
+
+								 <h4>While Arugam Bay is primarily famous for its surfing waves, its also a great spot for kite surfing, especially from June to September. Located on the east coast, Arugam Bay offers a more laid-back vibe with a vibrant surf culture. The winds here are generally lighter, making it suitable for beginners or those looking for a less intense kite surfing experience. The bays picturesque setting, with golden beaches and clear waters, adds to the appeal, making it a great spot to combine kite surfing with other water activities.
+							</h4>
+
+			</div>
+
+        </div>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#f6d87e">
+				<path d="m296-345-56-56 240-240 240 240-56 56-184-183-184 183Z"/>
+			</svg>		
+		 </button>
+
+        <div class="footer"><p>Anukshi Balasuriya © copyright, all rights reserved, 2024</p></div>
+
+		<script src="myBtn.js"></script>
+		
+				<script>
+
+
+			function openNav() {
+				document.getElementById("Menu").style.width = "100%";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("Menu").style.width = "0%";
+				document.getElementById("main").style.marginLeft= "0";
+			}
+		</script>	
+
+    </body>
+
+</html>
